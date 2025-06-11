@@ -1,0 +1,3 @@
+/home/hala/chess-ex1-halabat-feat-chess-part3/cmake-build-debug/CMakeFiles/ChessGame.dir
+/home/hala/chess-ex1-halabat-feat-chess-part3/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/hala/chess-ex1-halabat-feat-chess-part3/cmake-build-debug/CMakeFiles/rebuild_cache.dir

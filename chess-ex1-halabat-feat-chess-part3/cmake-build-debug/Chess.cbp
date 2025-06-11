@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Chess"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/hala/chess-ex1-halabat-feat-chess-part3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/hala/chess-ex1-halabat-feat-chess-part3/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/hala/chess-ex1-halabat-feat-chess-part3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/hala/chess-ex1-halabat-feat-chess-part3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/hala/chess-ex1-halabat-feat-chess-part3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ChessGame">
+				<Option output="/home/hala/chess-ex1-halabat-feat-chess-part3/cmake-build-debug/ChessGame" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hala/chess-ex1-halabat-feat-chess-part3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hala/chess-ex1-halabat-feat-chess-part3/Chess/include"/>
+					<Add directory="/usr/include/c++/13"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/13"/>
+					<Add directory="/usr/include/c++/13/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/13/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/hala/chess-ex1-halabat-feat-chess-part3/cmake-build-debug/Makefile&quot;  VERBOSE=1 ChessGame"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/hala/chess-ex1-halabat-feat-chess-part3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/hala/chess-ex1-halabat-feat-chess-part3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/hala/chess-ex1-halabat-feat-chess-part3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ChessGame/fast">
+				<Option output="/home/hala/chess-ex1-halabat-feat-chess-part3/cmake-build-debug/ChessGame" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hala/chess-ex1-halabat-feat-chess-part3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hala/chess-ex1-halabat-feat-chess-part3/Chess/include"/>
+					<Add directory="/usr/include/c++/13"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/13"/>
+					<Add directory="/usr/include/c++/13/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/13/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/hala/chess-ex1-halabat-feat-chess-part3/cmake-build-debug/Makefile&quot;  VERBOSE=1 ChessGame/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/hala/chess-ex1-halabat-feat-chess-part3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/hala/chess-ex1-halabat-feat-chess-part3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/hala/chess-ex1-halabat-feat-chess-part3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/hala/chess-ex1-halabat-feat-chess-part3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/hala/chess-ex1-halabat-feat-chess-part3/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/hala/chess-ex1-halabat-feat-chess-part3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/hala/chess-ex1-halabat-feat-chess-part3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/hala/chess-ex1-halabat-feat-chess-part3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/hala/chess-ex1-halabat-feat-chess-part3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/hala/chess-ex1-halabat-feat-chess-part3/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/hala/chess-ex1-halabat-feat-chess-part3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/hala/chess-ex1-halabat-feat-chess-part3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/hala/chess-ex1-halabat-feat-chess-part3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/hala/chess-ex1-halabat-feat-chess-part3/Chess/include/Bishop.h">
+			<Option target="ChessGame"/>
+		</Unit>
+		<Unit filename="/home/hala/chess-ex1-halabat-feat-chess-part3/Chess/include/Board.h">
+			<Option target="ChessGame"/>
+		</Unit>
+		<Unit filename="/home/hala/chess-ex1-halabat-feat-chess-part3/Chess/include/Chess.h">
+			<Option target="ChessGame"/>
+		</Unit>
+		<Unit filename="/home/hala/chess-ex1-halabat-feat-chess-part3/Chess/include/InvalidMoveBaseException.h">
+			<Option target="ChessGame"/>
+		</Unit>
+		<Unit filename="/home/hala/chess-ex1-halabat-feat-chess-part3/Chess/include/InvalidPromotionException.h">
+			<Option target="ChessGame"/>
+		</Unit>
+		<Unit filename="/home/hala/chess-ex1-halabat-feat-chess-part3/Chess/include/InvalidSuicideException.h">
+			<Option target="ChessGame"/>
+		</Unit>
+		<Unit filename="/home/hala/chess-ex1-halabat-feat-chess-part3/Chess/include/King.h">
+			<Option target="ChessGame"/>
+		</Unit>
+		<Unit filename="/home/hala/chess-ex1-halabat-feat-chess-part3/Chess/include/Knight.h">
+			<Option target="ChessGame"/>
+		</Unit>
+		<Unit filename="/home/hala/chess-ex1-halabat-feat-chess-part3/Chess/include/Model.h">
+			<Option target="ChessGame"/>
+		</Unit>
+		<Unit filename="/home/hala/chess-ex1-halabat-feat-chess-part3/Chess/include/Move.h">
+			<Option target="ChessGame"/>
+		</Unit>
+		<Unit filename="/home/hala/chess-ex1-halabat-feat-chess-part3/Chess/include/MyComparator.h">
+			<Option target="ChessGame"/>
+		</Unit>
+		<Unit filename="/home/hala/chess-ex1-halabat-feat-chess-part3/Chess/include/Pawn.h">
+			<Option target="ChessGame"/>
+		</Unit>
+		<Unit filename="/home/hala/chess-ex1-halabat-feat-chess-part3/Chess/include/Piece.h">
+			<Option target="ChessGame"/>
+		</Unit>
+		<Unit filename="/home/hala/chess-ex1-halabat-feat-chess-part3/Chess/include/PriorityQueue.h">
+			<Option target="ChessGame"/>
+		</Unit>
+		<Unit filename="/home/hala/chess-ex1-halabat-feat-chess-part3/Chess/include/Queen.h">
+			<Option target="ChessGame"/>
+		</Unit>
+		<Unit filename="/home/hala/chess-ex1-halabat-feat-chess-part3/Chess/include/Rook.h">
+			<Option target="ChessGame"/>
+		</Unit>
+		<Unit filename="/home/hala/chess-ex1-halabat-feat-chess-part3/Chess/include/ThreadPool.h">
+			<Option target="ChessGame"/>
+		</Unit>
+		<Unit filename="/home/hala/chess-ex1-halabat-feat-chess-part3/Chess/src/Bishop.cpp">
+			<Option target="ChessGame"/>
+		</Unit>
+		<Unit filename="/home/hala/chess-ex1-halabat-feat-chess-part3/Chess/src/Board.cpp">
+			<Option target="ChessGame"/>
+		</Unit>
+		<Unit filename="/home/hala/chess-ex1-halabat-feat-chess-part3/Chess/src/Chess.cpp">
+			<Option target="ChessGame"/>
+		</Unit>
+		<Unit filename="/home/hala/chess-ex1-halabat-feat-chess-part3/Chess/src/King.cpp">
+			<Option target="ChessGame"/>
+		</Unit>
+		<Unit filename="/home/hala/chess-ex1-halabat-feat-chess-part3/Chess/src/Knight.cpp">
+			<Option target="ChessGame"/>
+		</Unit>
+		<Unit filename="/home/hala/chess-ex1-halabat-feat-chess-part3/Chess/src/Model.cpp">
+			<Option target="ChessGame"/>
+		</Unit>
+		<Unit filename="/home/hala/chess-ex1-halabat-feat-chess-part3/Chess/src/Pawn.cpp">
+			<Option target="ChessGame"/>
+		</Unit>
+		<Unit filename="/home/hala/chess-ex1-halabat-feat-chess-part3/Chess/src/Piece.cpp">
+			<Option target="ChessGame"/>
+		</Unit>
+		<Unit filename="/home/hala/chess-ex1-halabat-feat-chess-part3/Chess/src/Queen.cpp">
+			<Option target="ChessGame"/>
+		</Unit>
+		<Unit filename="/home/hala/chess-ex1-halabat-feat-chess-part3/Chess/src/Rook.cpp">
+			<Option target="ChessGame"/>
+		</Unit>
+		<Unit filename="/home/hala/chess-ex1-halabat-feat-chess-part3/Chess/src/ThreadPool.cpp">
+			<Option target="ChessGame"/>
+		</Unit>
+		<Unit filename="/home/hala/chess-ex1-halabat-feat-chess-part3/Chess/src/main.cpp">
+			<Option target="ChessGame"/>
+		</Unit>
+		<Unit filename="/home/hala/chess-ex1-halabat-feat-chess-part3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
