@@ -1,1 +1,0 @@
-CMakeLists.txt not found in \\wsl.localhost\Ubuntu\home\hala\chess-ex1-halabat-feat-chess-part3\Chess Select CMakeLists.txt
