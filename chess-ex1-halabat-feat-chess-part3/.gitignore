@@ -1,29 +1,15 @@
-# Ignore build files and compiled binaries
-/build/
-/CMakeCache.txt
-/CMakeFiles/
-/*.o
-/*.a
-/*.so
-/*.exe
-/*.out
+# build artifacts
+cmake-build-debug/
+Chess/cmake-build-debug/
+*.o
+*.out
 
-# Ignore IDE and editor configuration files
-.vscode/
-.idea/
-*.swp
-*.swo
+# system metadata
+.DS_Store
+*Zone.Identifier*
 
-# Ignore GitHub Actions temporary files
-.github/workflows/*.log
-.github/workflows/*.cache
-
-# Ignore debugging and log files
-*.log
-*.tmp
-*.bak
-
-# Ignore temporary image cache
-img/cache/
-
-*:Zone.Identifier
+# CMake files
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
